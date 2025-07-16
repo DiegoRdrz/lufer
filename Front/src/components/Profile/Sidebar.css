@@ -1,0 +1,23 @@
+.profile-sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgba(186, 200, 209,0.95);
+
+    width: 30%;
+    height: 100%;
+
+    padding: 2em 1em 2em 1em;
+
+    border-radius: 10px;
+
+}
+
+@media (max-width: 1000px){
+    .profile-sidebar{
+        width: 100%;
+        height: auto;
+    }
+}
+/* @media (max-width: 700px) {} */

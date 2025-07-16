@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.admin-options{
+    display: flex;
+    padding: 0.2rem;
+    gap: 0.2rem;
+    background-image:  url("src/assets/img/AdminOptions2.png");
+    background-size: cover;  
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+.admin-options__content{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(186, 200, 209,0.95);
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 1em;
+    width: 80%;
+    height: 100%;
+    box-sizing: border-box;
+    /* padding: 0.5rem 0px 0.5rem 0px */
+
+}
+
+.admin-options__sidebar{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: rgba(186, 200, 209,0.95);
+    border-radius: 10px;
+    border: 2px solid black;
+
+    width: 20%;
+    height: 100%;
+
+    box-sizing: border-box;
+    padding: 0.5rem 0px 0.5rem 0px;
+    
+    color: rgb(0, 0, 0);
+}
+
+.admin-options__sidebar-title {
+    text-align: center;
+    margin: 0 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    /* color: rgb(0, 0, 0); */
+    /* background-color: sandybrown; */
+    width: 100%;
+}
+
+.admin-options__sidebar-list{
+    list-style: none;
+    /* background-color: rgba(78, 17, 6, 0.422); */
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.admin-options__sidebar-item {
+    /* background-color: rgba(192, 49, 24, 0.422); */
+    width: 100%;
+}
+
+.admin-options__sidebar-button{
+    /* text-decoration: none; */
+    background-color: transparent;
+    /* text-align: ; */
+    color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+    display: block;
+    border-radius: 10px;
+}
+
+.admin-options__sidebar-button:hover {
+    background-color: rgba(171, 71, 49, 0.85);
+    color: white;
+}
+
+.admin-options__sidebar-item.logout{
+    /* background-color: rgba(192, 49, 24, 0.422); */
+    margin-top: auto;
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "nombre": "Jabón de Loto Blanco Eterno",
+    "descripcion": "Calma el alma agitada, favorece sueños proféticos y elimina residuos de energía negativa leve.",
+    "precio": 20,
+    "imagen": "src/assets/img/jabones/jabon_loto.jpg"
+  },
+  {
+    "nombre": "Carbón del Inframundo",
+    "descripcion": "Purificación profunda del aura, disuelve maldiciones menores y limpia la memoria emocional.",
+    "precio": 18,
+    "imagen": "src/assets/img/jabones/jabon_infra.jpg"
+  },
+  {
+    "nombre": "Vapor de Fénix",
+    "descripcion": "Restaura la vitalidad espiritual, energiza el cuerpo etéreo y da vigor al alma reencarnada.",
+    "precio": 22,
+    "imagen": "src/assets/img/jabones/jabon_fenix.jpg"
+  },
+  {
+    "nombre": "Bruma de Sauce Llorón",
+    "descripcion": "Reduce la melancolía postvida, ideal para espíritus en duelo o que extrañan el mundo humano.",
+    "precio": 16,
+    "imagen": "src/assets/img/jabones/jabon_sauce.jpg"
+  },
+  {
+    "nombre": "Arcilla Lunar Plateada",
+    "descripcion": "Rejuvenece la “piel astral”, equilibra chakras espectrales y suaviza grietas en el cuerpo etéreo.",
+    "precio": 30,
+    "imagen": "src/assets/img/jabones/jabon_silver.jpg"
+  },
+  {
+    "nombre": "Espuma de Rayo Silente",
+    "descripcion": "Despierta habilidades psíquicas latentes y mejora la conexión con planos superiores.",
+    "precio": 28,
+    "imagen": "src/assets/img/jabones/jabon rayo.jpg"
+  }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "nombre": "Baño de Vapor termal del loto silencioso",
+        "descripcion": "Envuelto en un suave vapor floral, este baño purifica el cuerpo y el alma con esencias de loto ancestral. Ideal para quienes buscan renovar su energía vital.",
+        "precio": 30,
+        "imagen": "src/assets/img/baños/baño_loto.jpg"
+    },
+    {
+        "nombre": "Baño termal de luna de media noche",
+        "descripcion": "Bajo una luz plateada encantada, sus aguas profundas calman la mente y otorgan sueños lúcidos a los espíritus viajeros. Se dice que el reflejo de la luna revela verdades ocultas.",
+        "precio": 28,
+        "imagen": "src/assets/img/baños/baño_luna.jpg"
+    },
+    {
+        "nombre": "Baño termal escama de dragón",
+        "descripcion": "Este baño poderoso, calentado por fuego antiguo, fortalece el espíritu y templa el carácter. Las escamas de dragón disueltas elevan la resistencia espiritual.",
+        "precio": 32,
+        "imagen": "src/assets/img/baños/baño_dragon.jpg"
+    },
+    {
+        "nombre": "Baño termal hierbas del hechicero",
+        "descripcion": "Infusión de hierbas secretas recogidas al amanecer por brujos errantes. Alivia tensiones mágicas, dolores del alma y bloqueos del chi.",
+        "precio": 35,
+        "imagen": "src/assets/img/baños/baño_hechizo.jpg"
+    },
+    {
+        "nombre": "Baño de las almas perdidas",
+        "descripcion": "Baño etéreo cubierto de neblina azul, donde las almas extraviadas encuentran consuelo. Solo para visitantes valientes, ya que algunas memorias podrían volver con ellos.",
+        "precio": 25,
+        "imagen": "src/assets/img/baños/baño_almas.jpg"
+    }
+]

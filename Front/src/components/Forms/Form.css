@@ -1,0 +1,122 @@
+.mainForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background:#fff4e5;
+    text-align: center;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(167, 194, 210, 0.8);
+    width: 40%;
+    border-radius: 20px;
+    padding: 2vh 1vw;
+
+    & h2 {
+        font-family: 'Offside', sans-serif;
+        margin-bottom: 1vh;
+    }
+}
+
+
+.none {
+    visibility: hidden;
+    height: 0;
+    margin: 0 1vw;
+}
+
+.signupForm__basicInfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+}
+
+.signupForm__contactInfo {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+}
+
+.signupForm__password {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+}
+
+
+.login_Form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Form__input {
+    margin: 1vh 1vw;
+    padding: 0.25rem;
+    flex-grow: 1;
+    font-family: 'Offside', sans-serif;
+}
+
+.Form__btn {
+    font-family: 'Offside', sans-serif;
+    border-radius: 100px;
+    background-color: #bead91;
+    font-size: 0.9rem;
+    padding: 1vh 1vw;
+    margin: 1.5vh 0;
+    transition: transform 0.3s ease,
+                background-color 0.4s ease-in;
+
+    &:hover {
+        transform: scale(1.05);
+        background-color: #d2bfa1;
+    }
+}
+
+.Form__error {
+    color: red;
+}
+
+
+.alreadyHave {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh 0.5vw;
+    & p {
+        display: inline;
+    }
+}
+
+.alreadyHave__btn {
+    text-decoration: none;
+    color: blue;
+
+    &:hover {
+        color: #00008f;
+    }
+}
+
+@media (max-width: 1058px) {
+    .Form {
+        width: 30%;
+    }
+    
+    .Form__input {
+        width: 100%;
+    }
+
+    .signupForm__basicInfo {
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,87 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model Usuario {
+  id          Int       @id @default(autoincrement())
+  nombre      String
+  email       String    @unique
+  password    String
+  tipo        String?
+  imagen      String?
+  descripcion String?
+  rol         Rol       @default(USER)
+  reservas    Reserva[]
+}
+
+model Baño {
+  id          Int               @id @default(autoincrement())
+  nombre      String
+  descripcion String
+  precio      Float
+  imagen      String?
+  reservas    Reserva[]
+  personal    PersonalLimpieza[]
+}
+
+model Jabon {
+  id          Int       @id @default(autoincrement())
+  nombre      String
+  descripcion String
+  precio      Float
+  imagen      String?
+  reservas    Reserva[]
+}
+
+model Menu {
+  id          Int       @id @default(autoincrement())
+  nombre      String
+  descripcion Json
+  precio      Float
+  imagen      String?
+  reservas    Reserva[]
+}
+
+model Reserva {
+  id             Int       @id @default(autoincrement())
+  fecha          DateTime
+  total          Float     @default(0)
+  createdAt      DateTime  @default(now())
+
+  usuario        Usuario   @relation(fields: [usuarioId], references: [id])
+  usuarioId      Int
+
+  baño           Baño      @relation(fields: [bañoId], references: [id])
+  bañoId         Int
+
+  jabon          Jabon?    @relation(fields: [jabonId], references: [id])
+  jabonId        Int?
+
+  menu           Menu?     @relation(fields: [menuId], references: [id])
+  menuId         Int?
+}
+
+model ElementoLimpieza {
+  id          Int     @id @default(autoincrement())
+  nombre      String
+  descripcion String
+  precio      Float
+}
+
+model PersonalLimpieza {
+  id      Int   @id @default(autoincrement())
+  nombre  String
+  tarea   String
+  baño    Baño   @relation(fields: [bañoId], references: [id])
+  bañoId  Int
+}
+
+enum Rol {
+  ADMIN
+  USER
+}

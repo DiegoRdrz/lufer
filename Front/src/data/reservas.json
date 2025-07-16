@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "fecha": "2025-07-10",
+    "hora": "14:00",
+    "servicio": "Baño termal de luna de media noche",
+    "jabonespecial": "No",
+    "banquete": "No"
+  },
+  {
+    "id": 2,
+    "fecha": "2025-08-22",
+    "hora": "16:00",
+    "servicio": "Baño termal escama de dragón",
+    "jabonespecial": "No",
+    "banquete": "Sí"
+  },
+  {
+    "id": 3,
+    "fecha": "2025-09-03",
+    "hora": "10:00",
+    "servicio": "Baño de las almas perdidas",
+    "jabonespecial": "Carbón del Inframundo",
+    "banquete": "No"
+  }
+]

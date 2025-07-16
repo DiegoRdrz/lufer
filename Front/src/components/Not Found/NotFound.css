@@ -1,0 +1,79 @@
+.notFound {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background:#fff4e5;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.notFound__img {
+    width: 15rem;
+    margin-bottom: 1rem;
+}
+
+.notFound__description {
+    display: flex;
+    flex-direction: column;
+}
+
+.notFound__title {
+    align-self: flex-start;
+    font-family: 'Offside', sans-serif;
+    font-size: 4rem;
+    margin: 1vh 1vw;
+}
+
+.notFound__message {
+    font-family: 'Offside', sans-serif;
+    margin: 1vh 1vw 4vh 1vw;
+}
+
+.notFound__btn {
+    background-color: #10b981;
+    font-size: 1.5rem;
+    color: white;
+    width: auto;
+    padding: 1vh 2vw;
+    margin: 0 1vw;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: 'Offside', sans-serif;
+    font-weight: bold;
+    transition: background-color 0.3s ease,
+                color 0.3s ease,
+                transform 0.5s ease;
+}
+
+.notFound__btn:hover {
+    background-color: #074e36;
+    color: rgba(188, 202, 211, 0.8);
+    transform: scale(1.1);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .notFound {
+        flex-direction: column;
+    }
+
+    .notFound__title {
+        font-size: 4rem;
+        align-self: center;
+    }
+
+    .notFound__message {
+        font-size: 1.2rem;
+    }
+
+    .notFound__btn {
+        padding: 0.6rem 1.2rem;
+
+        &:active {
+            background-color: #074e36;
+            color: rgba(188, 202, 211, 0.8);
+        }
+    }
+}

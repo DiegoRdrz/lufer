@@ -1,0 +1,97 @@
+.gestor {
+    /* padding: 1em; */
+    width: 100%;
+    max-height: 100%;
+    overflow-y: auto;
+    overflow-x: auto;
+
+}
+.gestor__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+    padding: 0 1em;
+  }
+  
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0.1em;
+    /* background-color: rgba(254, 237, 212, 0.85); */
+    border-radius: 10px;
+    
+}
+
+thead {
+    background-color: rgb(171, 71, 49);
+    color: white;
+    border-top-left-radius: 10px;
+}
+
+th {
+    padding: 0.5em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+td {
+  /* background-color: rgba(29, 123, 182, 0.95); */
+    text-align: center;
+    padding: 0.5em;
+    color: black;
+    border-radius: 5px;
+    background-color:  rgba(254, 237, 212, 0.85);
+}
+
+.gestor__add-button {
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .gestor__add-button:hover {
+    background-color: darkgreen;
+  }
+
+.gestor__edit-button {
+    background-color:rgba(29, 123, 182, 0.95);
+    color: white;
+    padding: 0.5em;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.gestor__delete-button {
+    background-color: rgb(171, 71, 49);
+    color: white;
+    padding: 0.5em;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.gestor__input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  

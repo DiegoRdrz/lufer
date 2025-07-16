@@ -1,0 +1,108 @@
+.profile__reservations{
+    /* flex:2; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(186, 200, 209,0.95);
+    padding: 1.5em;
+    box-sizing: border-box;
+    width: 50%;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.profile__reservations-container{
+    display:flex;
+    gap: 0.5em;
+
+    padding: 1em;
+    
+    height: 100%;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+    scrollbar-width: auto; /* For Firefox */
+    scrollbar-color: #797878 rgba(0, 0, 0, 0); 
+}
+
+
+.profile__reservation-card{
+
+    background-color: rgba(254, 237, 212, 0.7);
+    min-width: 200px;
+    width: 200px;
+    max-height: 200px;
+
+    border: 2px solid rgb(171, 71, 49);
+    border-radius: 13px;
+    box-sizing: border-box;
+    /* padding: 1em; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile__reservation-service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    /* background-color:rgb(255, 255, 255); */
+    background-color:rgb(171, 71, 49);
+    height: 40%;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+    /* font-size: 1.2em; */
+    color: rgb(237, 237, 237);
+}
+
+.profile__reservation-date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* background-color:rgb(184, 19, 19); */
+    width: 100%;
+
+    padding: 0.5em;
+    /* font-size: 1.2em; */
+    color: rgb(0, 0, 0);
+}
+
+.profile__reservation-time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    /* background-color:rgb(49, 19, 184); */
+    padding: 0.5em;
+    /* font-size: 1.2em; */
+    color: rgb(0, 0, 0);
+}
+
+.profile__reservations-link{
+    box-sizing: border-box;
+    background-color: rgb(171, 71, 49);
+    padding: 0.5em; 
+    border-radius: 5px;
+    align-self: end;
+    margin-top: 10px;
+}
+
+.profile__reservations-button{
+    background-color: transparent;
+    font-size: 12px;
+    color:white
+}
+
+@media (max-width: 1200px) {
+    .profile__reservations{
+        width: 100%;
+    }
+
+
+
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "email": "admin@dogoonsen.com",
+        "password": "1234",
+        "nombre": "Alejandra",
+        "tipo":"Humano",
+        "imagen": "/src/assets/img/no-image.jpg",
+        "descripcion": "Soy una persona que ama los perros y la tecnología.",
+        "rol": "ADMIN"
+    },
+    {
+        "email": "client@gmail.com",
+        "password": "1234",
+        "nombre": "Diego",
+        "tipo":"Humano",
+        "imagen": "/src/assets/img/no-image.jpg",
+        "descripcion": "Soy un cliente que ama los gatos.",
+        "rol": "USER"
+    }
+]

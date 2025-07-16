@@ -1,0 +1,101 @@
+.reservas-container {
+  background-image: url('../assets/img/Onsen.png'); /* usa la misma imagen o cambia */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 100vh;
+  padding: 60px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  backdrop-filter: brightness(0.95);
+}
+
+.reservas-container h2 {
+  font-size: 2.7rem;
+  font-family: 'Noto Serif JP', 'Georgia', serif;
+  color: #a23024;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 8px rgba(96, 60, 60, 0.15);
+  border-bottom: 4px solid #b03a2e;
+  padding-bottom: 0.3em;
+  background: rgba(184, 176, 176, 0.73);
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.reservas-container ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-width: 1200px;
+}
+
+.reservas-container li {
+  background: rgba(255, 232, 214, 0.85);
+  border: 2px solid #b03a2e;
+  border-radius: 16px;
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+  font-family: 'Noto Serif JP', 'Georgia', serif;
+  color: #280f06;
+  box-shadow: 0 6px 12px rgba(176, 58, 46, 0.2);
+  transition: transform 0.2s;
+}
+
+.reservas-container li:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(176, 58, 46, 0.3);
+}
+
+@media (max-width: 600px) {
+  .reservas-container h2 {
+    font-size: 2rem;
+  }
+
+  .reservas-container li {
+    font-size: 1.1rem;
+    padding: 1rem;
+  }
+}
+.reserva-btns {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.btn-cancelar {
+  background-color: #b03a2e;
+  color: white;
+  border: none;
+  padding: 0.4em 0.8em;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  min-width: 100px;
+}
+
+.btn-cancelar:hover {
+  background-color: #922a1f;
+}
+
+.btn-modificar {
+  background-color: #d1a446;
+  color: white;
+  border: none;
+  padding: 0.4em 0.8em;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  min-width: 100px;
+}
+
+.btn-modificar:hover {
+  background-color: #b28939;
+}

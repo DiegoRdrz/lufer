@@ -1,0 +1,79 @@
+.flujo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('src/assets/img/chihiro noche.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.flujo-container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: rgba(167, 194, 210, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flujo-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.flujo-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.flujo-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: #444;
+}
+
+.flujo-form select,
+.flujo-form input[type="date"] {
+  margin-top: 0.5rem;
+  padding: 0.4rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.flujo-form input[type="checkbox"] {
+  margin-top: 0.5rem;
+  align-self: flex-start;
+  transform: scale(1.2);
+}
+
+.flujo-btn {
+  margin-top: 1.5rem;
+  padding: 0.7rem 1rem;
+  background-color: #bead91;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.flujo-btn:hover {
+  background-color: #922a1f;
+}
+
+.botones-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.botones-container .flujo-btn {
+  flex: 1;
+}

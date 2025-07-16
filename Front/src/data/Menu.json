@@ -1,0 +1,31 @@
+[
+  {
+    "nombre": "Banquete diario",
+    "descripcion": [
+      "El banquete del Hotel Yubaba es un ritual sagrado donde la abundancia trasciende el mundo físico. Servido al caer la noche, cuando los portales entre mundos se abren, esta celebración gastronómica despliega mesas interminables repletas de manjares etéreos:",
+      "bocados de tofu flotante en caldos perfumados de sake antiguo, brotes de bambú cristalizados en miel de luna, ostras gigantes rellenas de perlas de arroz dulce, tentáculos glaseados en salsa de umami ancestral, pescados enteros cocidos en vapor de aguas termales y frutas que brillan como luciérnagas.",
+      "Cada platillo posee un efecto: algunos restauran la memoria, otros fortalecen el espíritu o devuelven la voz a quienes la han perdido. Sin embargo, quienes comen sin respeto podrían olvidar quiénes son…",
+      "Solo los huéspedes con alma transparente pueden saborear este banquete sin peligro."
+    ],
+    "precio": 50,
+    "imagen": "src/assets/img/menus/banquete.png"
+  },
+  {
+    "nombre": "Elixir de Té Verde",
+    "descripcion": "Un delicado té de hierbas, de un verde esmeralda vibrante, en una taza singularmente pintada. El vapor, etéreo y danzarín, evoca la tranquilidad de un jardín escondido en el reino de los espíritus.",
+    "precio": 8,
+    "imagen": "src/assets/img/menus/elixir.jpg"
+  },
+  {
+    "nombre": "Sinfonía de Vapor del Balneario",
+    "descripcion": "Una acogedora selección de tés y cafés, servidos en tazas artesanales. El vapor se eleva como un suave susurro mágico, invitando a la calma en cualquier rincón de tu página.",
+    "precio": 6,
+    "imagen": "src/assets/img/menus/sinfonia.jpg"
+  },
+  {
+    "nombre": "Néctar Glacial del Río Dragón",
+    "descripcion": "Una bebida fría y refrescante, presentada en un recipiente místico que recuerda los tesoros del balneario. Sus colores vibrantes y el toque de fantasía capturan la esencia mágica de un verano",
+    "precio": 5,
+    "imagen": "src/assets/img/menus/nectar.jpg"
+  }
+]
